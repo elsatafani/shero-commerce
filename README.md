@@ -1,4 +1,4 @@
-# Embroidery Supply Website
+# Commerce Website
 
 A modern, responsive website for Shero Commmerce featuring elegant design,and interactive product showcases.
 
@@ -77,7 +77,6 @@ homepage/
   - Mobile: 1 item per view
 
 ## 🎯 Key Features
-
 
 ### Performance Optimizations
 - CSS variables for consistent theming
