@@ -81,18 +81,23 @@
       </div>
     </div>
   </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   <script>
-    new Glide('.glide', {
-      type: 'carousel',
-      perView: 4,
-      gap: 40,
-      autoplay: false,
-      hoverpause: true,
-      animationDuration: 1000,
-      dragThreshold: 120,
-      peek: 0
-    }).mount();  </script>
+  new Glide('.glide', {
+    type: 'carousel',
+    perView: 4,
+    gap: 40,
+    autoplay: false,
+    hoverpause: true,
+    animationDuration: 1000,
+    dragThreshold: 120,
+    breakpoints: {
+      1024: { perView: 3, gap: 30 },
+      768:  { perView: 2, gap: 20 },
+      500:  { perView: 1, gap: 10 }
+    }
+  }).mount();
+</script>
+
 </body>
 </html>
